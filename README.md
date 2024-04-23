@@ -29,7 +29,7 @@ After Herbie is done improving the expression for accuracy, Herbie directs you t
 
 ![Metric's link](metrics.png)
 
-This will take you the metrics page. Under the section "preprocess", you should find a dropdown called "Explanations". The explanations of the errors of the expression will be found here. Each explanation shows the erroneous operator, erroneous subexpression, the explanation and the frequency of the error.
+This will take you the metrics page. Under the section "preprocess", you should find a dropdown called "Explanations". The explanations of the errors of the expression will be found here. Each explanation shows the erroneous operator, erroneous subexpression, the explanation and the frequency of the error. In sub-expressions where the cause of error is an over/underflow, possible sources of over/underflow are also listed.
 
 ![Explanations Table](table.png)
 
@@ -44,5 +44,5 @@ Herbie will run for all the expressions in the benchmark and the collected repor
 You will find the main explanations algorithm in the function `predicted-errors` starting at line 50 in the file [`src/error-table.rkt`](src/error-table.rkt).
 
 
-    herbie report bench/ report/
+    racket src/erbie report bench/ report/
     
