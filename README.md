@@ -43,6 +43,5 @@ Herbie will run for all the expressions in the benchmark and the collected repor
 
 You will find the main explanations algorithm in the function `predicted-errors` starting at line 50 in the file [`src/error-table.rkt`](src/error-table.rkt).
 
-
-    racket src/erbie report bench/ report/
+    racket src/herbie report bench/ report/
     
