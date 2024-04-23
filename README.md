@@ -23,7 +23,7 @@ To run this project you can run the command:
 
 This will open Herbie's web interface. Here you will be prompted to enter the floating point expression whose error's you want explained, along with ranges for each input variable.
 
-![Herbie's web interface](interface.png)
+![Herbie's web interface](interface.jpeg)
 
 After Herbie is done improving the expression for accuracy, Herbie directs you to a report page showing optimized rewrites of the expression. To get explanations, you will have to click the "metrics" link at the top right corner of the report page. 
 
