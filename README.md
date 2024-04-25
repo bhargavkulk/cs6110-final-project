@@ -39,9 +39,6 @@ If you want to run explanations on one of Herbie's benchmark suites, you can run
 
 Herbie will run for all the expressions in the benchmark and the collected report will be in the folder `report`.
 
-## Source Code of the project
+## Source Code
 
 You will find the main explanations algorithm in the function `predicted-errors` starting at line 50 in the file [`src/error-table.rkt`](src/error-table.rkt).
-
-    racket src/herbie report bench/ report/
-    
